@@ -53,7 +53,7 @@ class GetVideoId extends Modifier
         }
 
         if($type == 'file') {
-            $str = str_replace(['-','_','.'],'',$url);
+            $str = str_replace(['-','_','.','/'],'',$url);
             //Log::info("ID: ". print_r($str,true));
             if (empty($str)) {
                 return false;

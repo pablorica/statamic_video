@@ -17,6 +17,16 @@ Extract embed URLs from Youtube, Vimeo, and HTML5 compatible video links and pre
 
 ### Caption
 
+## [Statamic Modifiers](https://statamic.dev/modifiers)
+
+Modifiers manipulate the data of your variables on the fly in Antlers templates. They can modify strings, filter arrays and lists, perform comparisons, handle basic math, simplify your markup, and even help you debug.
+
+This video fieldset includes 3 modifiers:
+
+### app/Modifiers/GetVideoId.php
+### app/Modifiers/IsVimeo.php
+### app/Modifiers/IsYoutube.php
+
 
 ## [What is a fieldset?](https://github.com/statamic/v2-docs/blob/master/content/collections/docs/fieldsets.md#what-is-a-fieldset-what-is-a-fieldset)
 
@@ -41,3 +51,10 @@ fields:
     max_items: 1
 
 ```
+
+## Change Log
+All notable changes to this project will be documented in the [changelog file](CHANGELOG.md).
+ 
+The format is based on [Keep a Changelog](http://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](http://semver.org/).
+[Sample CHANGELOG ](https://gist.github.com/juampynr/4c18214a8eb554084e21d6e288a18a2c).
