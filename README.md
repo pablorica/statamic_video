@@ -23,9 +23,9 @@ Modifiers manipulate the data of your variables on the fly in Antlers templates.
 
 This video fieldset includes 3 modifiers:
 
-### app/Modifiers/GetVideoId.php
-### app/Modifiers/IsVimeo.php
-### app/Modifiers/IsYoutube.php
+-  `app/Modifiers/GetVideoId.php`
+-  `app/Modifiers/IsVimeo.php`
+-  `app/Modifiers/IsYoutube.php`
 
 
 ## [What is a fieldset?](https://github.com/statamic/v2-docs/blob/master/content/collections/docs/fieldsets.md#what-is-a-fieldset-what-is-a-fieldset)
